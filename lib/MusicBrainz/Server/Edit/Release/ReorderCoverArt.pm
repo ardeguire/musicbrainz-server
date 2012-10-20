@@ -10,6 +10,7 @@ use MusicBrainz::Server::Edit::Exceptions;
 use MusicBrainz::Server::Edit::Utils qw( changed_display_data );
 use MusicBrainz::Server::Translation qw ( N_l );
 
+use Net::CoverArtArchive;
 use List::UtilsBy 'nsort_by';
 
 use aliased 'MusicBrainz::Server::Entity::Release';
